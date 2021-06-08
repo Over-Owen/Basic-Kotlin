@@ -1,5 +1,10 @@
 package sealedClass
 
+/**
+ * 密封类实现测试   需要深入学习
+ * Created by Over Owen
+ * 2021.06.08 16:10
+ */
 sealed class Expression
 class Unit : Expression()
 data class Const(val number: Double) : Expression()

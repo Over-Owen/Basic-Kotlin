@@ -1,5 +1,10 @@
 package nestedClass
 
+/**
+ * 内部类范例
+ * Created by Over Owen
+ * 2021.06.08 16:01
+ */
 class NestedClassesDemo {
     class Outer {
         private val zero: Int = 0
