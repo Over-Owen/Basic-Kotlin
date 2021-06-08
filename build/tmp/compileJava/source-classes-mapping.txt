@@ -3,9 +3,6 @@ javaClass/JavaClass.java
 javaClass/YouInterface.java
  javaClass.MyClass
  javaClass.YouInterface
-<<<<<<< HEAD
 javaSingleton/Singleton.java
  javaSingleton.Singleton
  javaSingleton.Test
-=======
->>>>>>> 6f58716f5864d582141dad1ba26173c2c360d607
