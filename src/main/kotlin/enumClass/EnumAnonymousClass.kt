@@ -1,5 +1,8 @@
 package enumClass
 
+/**
+ * 枚举类中的实现匿名类
+ */
 enum class EnumAnonymousClass {
     onCreate {
         override fun signal() = onStart
