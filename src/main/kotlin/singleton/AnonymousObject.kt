@@ -1,13 +1,13 @@
 package singleton
 
-fun distance(x: Double, y: Double): Double {
+fun distance(a: Double, b: Double): Double {
     val porigin = object {
-        var x = 0.0
-        var y = 0.0
+        var a = 0.0
+        var b = 0.0
     }
     return Math.sqrt(
         //勾股定理
-        (x - porigin.x) * (x - porigin.x) + (y - porigin.y) * (y - porigin.y)
+        (a - porigin.a) * (a - porigin.a) + (b - porigin.b) * (b - porigin.b)
     )
 }
 
